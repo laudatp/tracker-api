@@ -11,7 +11,7 @@ const { MongoClient } = require('mongodb');
 // but it's not required if the MondoDB server
 // is running on the default port, 27017.
 
-const url = process.env.DB_URL || 'mongodb://localhost/issuetracker';
+const url = process.env.MONGODB_URI || 'mongodb://localhost/issuetracker';
 
 // This function is unwieldy callback paradigm
 // with repetitive callback code, but it works
