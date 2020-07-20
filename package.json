@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Peter Laudats Pro MERN Stack (2nd Edition) API",
   "main": "index.js",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "start": "nodemon -e js,graphql -w . -w .env server.js",
     "lint": "eslint --fix .",
@@ -10,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.ccs.neu.edu/NEU-CS5610-SU20/PeterLaudat-Book.git"
+    "url": "git+https://github.com/laudatp/tracker-api.git"
   },
   "author": "Peter Laudat",
   "license": "ISC",
